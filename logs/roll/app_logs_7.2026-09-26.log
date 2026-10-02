@@ -1,0 +1,29 @@
+[34m[SpringApplicationShutdownHook][0;39m [2026-09-26  23-47-17-63] INFO  o.s.boot.tomcat.GracefulShutdown  Commencing graceful shutdown. Waiting for active requests to complete
+[34m[tomcat-shutdown][0;39m [2026-09-26  23-47-17-64] INFO  o.s.boot.tomcat.GracefulShutdown  Graceful shutdown complete
+[34m[main][0;39m [2026-09-26  23-47-21-87] INFO  com.pioneers.rest.task.Main  Starting Main using Java 21.0.10 with PID 30380 (C:\Users\Mostafa\Downloads\rest\target\classes started by Mostafa in C:\Users\Mostafa\Downloads\rest)
+[39m[main][0;39m [2026-09-26  23-47-21-87] DEBUG com.pioneers.rest.task.Main  Running with Spring Boot v4.1.0, Spring v7.0.8
+[34m[main][0;39m [2026-09-26  23-47-21-87] INFO  com.pioneers.rest.task.Main  The following 1 profile is active: "dev"
+[34m[background-preinit][0;39m [2026-09-26  23-47-22-09] INFO  o.h.validator.internal.util.Version  HV000001: Hibernate Validator 9.1.0.Final
+[34m[main][0;39m [2026-09-26  23-47-23-18] INFO  o.s.boot.tomcat.TomcatWebServer  Tomcat initialized with port 40411 (http)
+[34m[main][0;39m [2026-09-26  23-47-23-19] INFO  o.a.coyote.http11.Http11NioProtocol  Initializing ProtocolHandler ["http-nio-40411"]
+[34m[main][0;39m [2026-09-26  23-47-23-19] INFO  o.a.catalina.core.StandardService  Starting service [Tomcat]
+[34m[main][0;39m [2026-09-26  23-47-23-19] INFO  o.a.catalina.core.StandardEngine  Starting Servlet engine: [Apache Tomcat/11.0.22]
+[34m[main][0;39m [2026-09-26  23-47-23-24] INFO  o.s.b.w.c.s.WebApplicationContextInitializer  Root WebApplicationContext: initialization completed in 1320 ms
+[34m[main][0;39m [2026-09-26  23-47-23-83] INFO  o.s.g.e.DefaultSchemaResourceGraphQlSourceBuilder  Loaded 1 resource(s) in the GraphQL schema.
+[34m[main][0;39m [2026-09-26  23-47-23-99] INFO  o.s.b.g.a.GraphQlAutoConfiguration  GraphQL schema inspection:
+	Unmapped fields: {Query=[getStudentById], Mutation=[changeFirstName, changeSecondName]}
+	Unmapped registrations: {}
+	Unmapped arguments: {}
+	Field nullness errors: {}
+	Argument nullness errors: {}
+	Skipped types: []
+[34m[main][0;39m [2026-09-26  23-47-24-01] INFO  o.s.b.g.a.s.GraphQlWebMvcAutoConfiguration  GraphQL endpoint HTTP POST /graphql
+[34m[main][0;39m [2026-09-26  23-47-24-37] INFO  o.s.b.a.e.web.EndpointLinksResolver  Exposing 1 endpoint beneath base path '/actuator'
+[34m[main][0;39m [2026-09-26  23-47-24-41] INFO  o.a.coyote.http11.Http11NioProtocol  Starting ProtocolHandler ["http-nio-40411"]
+[34m[main][0;39m [2026-09-26  23-47-24-45] INFO  o.s.boot.tomcat.TomcatWebServer  Tomcat started on port 40411 (http) with context path '/'
+[34m[main][0;39m [2026-09-26  23-47-24-45] INFO  com.pioneers.rest.task.Main  Started Main in 3.008 seconds (process running for 3.693)
+[34m[http-nio-40411-exec-2][0;39m [2026-09-26  23-47-33-01] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]  Initializing Spring DispatcherServlet 'dispatcherServlet'
+[34m[http-nio-40411-exec-2][0;39m [2026-09-26  23-47-33-01] INFO  o.s.web.servlet.DispatcherServlet  Initializing Servlet 'dispatcherServlet'
+[34m[http-nio-40411-exec-2][0;39m [2026-09-26  23-47-33-01] INFO  o.s.web.servlet.DispatcherServlet  Completed initialization in 0 ms
+[34m[http-nio-40411-exec-2][0;39m [2026-09-26  23-47-33-11] INFO  c.p.r.t.controllers.AuthController  registerStudentApi, Implementing Registration flow for [mostafa@gmail.com]
+[34m[http-nio-40411-exec-3][0;39m [2026-09-26  23-47-42-26] INFO  c.p.r.t.controllers.AuthController  registerStudentApi, Implementing Registration flow for [mostafa@gmail.com]

@@ -1,0 +1,28 @@
+[34m[http-nio-40411-exec-1][0;39m [2026-09-26  22-13-57-87] INFO  c.p.r.t.controllers.AuthController  registerStudentApi, Implementing Registration flow for [mostafa@Mohammedgmail.com]
+[39m[http-nio-40411-exec-1][0;39m [2026-09-26  22-13-57-88] DEBUG c.p.r.t.r.StudentRepositoryImpl  save, Saved student with email = [Studentt{, fullName='Ms Mohamed', age=168, email='mostafa@Mohammedgmail.com', password=**********, isLoggedIn=false, score=0.0, finalScore=0.0}] and id = [95308ac0-1132-442d-aa8e-7d2acf095806]
+[39m[http-nio-40411-exec-1][0;39m [2026-09-26  22-13-57-89] DEBUG c.p.r.t.s.AuthStudentServiceImpl  signup, Successfully registered student with email [mostafa@Mohammedgmail.com]
+[34m[http-nio-40411-exec-1][0;39m [2026-09-26  22-13-57-89] INFO  c.p.r.t.controllers.AuthController  registerStudentApi, Successfully registered student with email [mostafa@Mohammedgmail.com]
+[34m[http-nio-40411-exec-5][0;39m [2026-09-26  22-16-09-03] INFO  c.p.r.t.controllers.AuthController  registerStudentApi, Implementing Registration flow for [mostafa@Mohammedgmail.com]
+[1;31m[http-nio-40411-exec-5][0;39m [2026-09-26  22-16-09-04] ERROR c.p.r.t.e.e.RegisterException  signup, Errors in registration for email [mostafa@Mohammedgmail.com], due to account is already registered
+[34m[http-nio-40411-exec-6][0;39m [2026-09-26  22-16-44-32] INFO  c.p.r.t.controllers.AuthController  registerStudentApi, Implementing Registration flow for [mostafaMohammedgmail.com]
+[39m[http-nio-40411-exec-6][0;39m [2026-09-26  22-16-44-32] DEBUG c.p.r.t.r.StudentRepositoryImpl  save, Saved student with email = [Studentt{, fullName=' Mohamed', age=168, email='mostafaMohammedgmail.com', password=**********, isLoggedIn=false, score=0.0, finalScore=0.0}] and id = [66780811-c8f5-4b7c-a298-b14e0b62a963]
+[39m[http-nio-40411-exec-6][0;39m [2026-09-26  22-16-44-32] DEBUG c.p.r.t.s.AuthStudentServiceImpl  signup, Successfully registered student with email [mostafaMohammedgmail.com]
+[34m[http-nio-40411-exec-6][0;39m [2026-09-26  22-16-44-32] INFO  c.p.r.t.controllers.AuthController  registerStudentApi, Successfully registered student with email [mostafaMohammedgmail.com]
+[34m[http-nio-40411-exec-7][0;39m [2026-09-26  22-17-03-11] INFO  c.p.r.t.controllers.AuthController  registerStudentApi, Implementing Registration flow for [mostafaMohammedgmailcom]
+[39m[http-nio-40411-exec-7][0;39m [2026-09-26  22-17-03-11] DEBUG c.p.r.t.r.StudentRepositoryImpl  save, Saved student with email = [Studentt{, fullName=' Mohamed', age=168, email='mostafaMohammedgmailcom', password=**********, isLoggedIn=false, score=0.0, finalScore=0.0}] and id = [37795a89-0d1e-4186-979e-d4b9487abf16]
+[39m[http-nio-40411-exec-7][0;39m [2026-09-26  22-17-03-11] DEBUG c.p.r.t.s.AuthStudentServiceImpl  signup, Successfully registered student with email [mostafaMohammedgmailcom]
+[34m[http-nio-40411-exec-7][0;39m [2026-09-26  22-17-03-11] INFO  c.p.r.t.controllers.AuthController  registerStudentApi, Successfully registered student with email [mostafaMohammedgmailcom]
+[34m[http-nio-40411-exec-8][0;39m [2026-09-26  22-17-16-60] INFO  c.p.r.t.controllers.AuthController  registerStudentApi, Implementing Registration flow for [mostafaMohammedgmailcom]
+[1;31m[http-nio-40411-exec-8][0;39m [2026-09-26  22-17-16-60] ERROR c.p.r.t.e.e.RegisterException  signup, Errors in registration for email [mostafaMohammedgmailcom], due to account is already registered
+[34m[SpringApplicationShutdownHook][0;39m [2026-09-26  22-20-37-07] INFO  o.s.boot.tomcat.GracefulShutdown  Commencing graceful shutdown. Waiting for active requests to complete
+[34m[tomcat-shutdown][0;39m [2026-09-26  22-20-37-08] INFO  o.s.boot.tomcat.GracefulShutdown  Graceful shutdown complete
+[34m[main][0;39m [2026-09-26  22-20-41-10] INFO  com.pioneers.rest.task.Main  Starting Main using Java 21.0.10 with PID 12132 (C:\Users\Mostafa\Downloads\rest\target\classes started by Mostafa in C:\Users\Mostafa\Downloads\rest)
+[39m[main][0;39m [2026-09-26  22-20-41-10] DEBUG com.pioneers.rest.task.Main  Running with Spring Boot v4.1.0, Spring v7.0.8
+[34m[main][0;39m [2026-09-26  22-20-41-10] INFO  com.pioneers.rest.task.Main  The following 1 profile is active: "dev"
+[34m[background-preinit][0;39m [2026-09-26  22-20-41-38] INFO  o.h.validator.internal.util.Version  HV000001: Hibernate Validator 9.1.0.Final
+[34m[main][0;39m [2026-09-26  22-20-42-47] INFO  o.s.boot.tomcat.TomcatWebServer  Tomcat initialized with port 40411 (http)
+[34m[main][0;39m [2026-09-26  22-20-42-48] INFO  o.a.coyote.http11.Http11NioProtocol  Initializing ProtocolHandler ["http-nio-40411"]
+[34m[main][0;39m [2026-09-26  22-20-42-48] INFO  o.a.catalina.core.StandardService  Starting service [Tomcat]
+[34m[main][0;39m [2026-09-26  22-20-42-48] INFO  o.a.catalina.core.StandardEngine  Starting Servlet engine: [Apache Tomcat/11.0.22]
+[34m[main][0;39m [2026-09-26  22-20-42-53] INFO  o.s.b.w.c.s.WebApplicationContextInitializer  Root WebApplicationContext: initialization completed in 1364 ms
+[34m[main][0;39m [2026-09-26  22-20-43-20] INFO  o.s.g.e.DefaultSchemaResourceGraphQlSourceBuilder  Loaded 1 resource(s) in the GraphQL schema.

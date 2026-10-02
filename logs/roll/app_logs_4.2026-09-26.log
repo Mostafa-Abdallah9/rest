@@ -1,0 +1,36 @@
+[34m[http-nio-40411-exec-2][0;39m [2026-09-26  22-27-23-26] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]  Initializing Spring DispatcherServlet 'dispatcherServlet'
+[34m[http-nio-40411-exec-2][0;39m [2026-09-26  22-27-23-26] INFO  o.s.web.servlet.DispatcherServlet  Initializing Servlet 'dispatcherServlet'
+[34m[http-nio-40411-exec-2][0;39m [2026-09-26  22-27-23-27] INFO  o.s.web.servlet.DispatcherServlet  Completed initialization in 3 ms
+[34m[http-nio-40411-exec-2][0;39m [2026-09-26  22-27-23-41] INFO  c.p.r.t.controllers.AuthController  registerStudentApi, Implementing Registration flow for [mostafa@gmail.com]
+[39m[http-nio-40411-exec-2][0;39m [2026-09-26  22-27-23-42] DEBUG c.p.r.t.r.StudentRepositoryImpl  save, Saved student with email = [Studentt{, fullName='Mostafa Mohamed', age=20, email='mostafa@gmail.com', password=**********, isLoggedIn=false, score=0.0, finalScore=0.0}] and id = [5dab9b09-59cb-444b-9154-07a94be3f3e3]
+[39m[http-nio-40411-exec-2][0;39m [2026-09-26  22-27-23-43] DEBUG c.p.r.t.s.AuthStudentServiceImpl  signup, Successfully registered student with email [mostafa@gmail.com]
+[34m[http-nio-40411-exec-2][0;39m [2026-09-26  22-27-23-43] INFO  c.p.r.t.controllers.AuthController  registerStudentApi, Successfully registered student with email [mostafa@gmail.com]
+[34m[http-nio-40411-exec-3][0;39m [2026-09-26  22-27-38-91] INFO  c.p.r.t.controllers.AuthController  registerStudentApi, Implementing Registration flow for [mostafa@gmail.com]
+[1;31m[http-nio-40411-exec-3][0;39m [2026-09-26  22-27-38-91] ERROR c.p.r.t.e.e.RegisterException  signup, Errors in registration for email [mostafa@gmail.com], due to account is already registered
+[34m[http-nio-40411-exec-4][0;39m [2026-09-26  22-27-54-31] INFO  c.p.r.t.controllers.AuthController  registerStudentApi, Implementing Registration flow for [mostafaA@gmail.com]
+[39m[http-nio-40411-exec-4][0;39m [2026-09-26  22-27-54-31] DEBUG c.p.r.t.r.StudentRepositoryImpl  save, Saved student with email = [Studentt{, fullName='M Mohamed', age=20, email='mostafaA@gmail.com', password=**********, isLoggedIn=false, score=0.0, finalScore=0.0}] and id = [32a0d632-976a-4910-87c8-235675c9e357]
+[39m[http-nio-40411-exec-4][0;39m [2026-09-26  22-27-54-31] DEBUG c.p.r.t.s.AuthStudentServiceImpl  signup, Successfully registered student with email [mostafaA@gmail.com]
+[34m[http-nio-40411-exec-4][0;39m [2026-09-26  22-27-54-31] INFO  c.p.r.t.controllers.AuthController  registerStudentApi, Successfully registered student with email [mostafaA@gmail.com]
+[34m[SpringApplicationShutdownHook][0;39m [2026-09-26  22-35-15-05] INFO  o.s.boot.tomcat.GracefulShutdown  Commencing graceful shutdown. Waiting for active requests to complete
+[34m[tomcat-shutdown][0;39m [2026-09-26  22-35-15-06] INFO  o.s.boot.tomcat.GracefulShutdown  Graceful shutdown complete
+[34m[main][0;39m [2026-09-26  22-35-18-68] INFO  com.pioneers.rest.task.Main  Starting Main using Java 21.0.10 with PID 36896 (C:\Users\Mostafa\Downloads\rest\target\classes started by Mostafa in C:\Users\Mostafa\Downloads\rest)
+[39m[main][0;39m [2026-09-26  22-35-18-69] DEBUG com.pioneers.rest.task.Main  Running with Spring Boot v4.1.0, Spring v7.0.8
+[34m[main][0;39m [2026-09-26  22-35-18-69] INFO  com.pioneers.rest.task.Main  The following 1 profile is active: "dev"
+[34m[background-preinit][0;39m [2026-09-26  22-35-18-97] INFO  o.h.validator.internal.util.Version  HV000001: Hibernate Validator 9.1.0.Final
+[34m[main][0;39m [2026-09-26  22-35-20-07] INFO  o.s.boot.tomcat.TomcatWebServer  Tomcat initialized with port 40411 (http)
+[34m[main][0;39m [2026-09-26  22-35-20-08] INFO  o.a.coyote.http11.Http11NioProtocol  Initializing ProtocolHandler ["http-nio-40411"]
+[34m[main][0;39m [2026-09-26  22-35-20-09] INFO  o.a.catalina.core.StandardService  Starting service [Tomcat]
+[34m[main][0;39m [2026-09-26  22-35-20-09] INFO  o.a.catalina.core.StandardEngine  Starting Servlet engine: [Apache Tomcat/11.0.22]
+[34m[main][0;39m [2026-09-26  22-35-20-14] INFO  o.s.b.w.c.s.WebApplicationContextInitializer  Root WebApplicationContext: initialization completed in 1390 ms
+[34m[main][0;39m [2026-09-26  22-35-20-75] INFO  o.s.g.e.DefaultSchemaResourceGraphQlSourceBuilder  Loaded 1 resource(s) in the GraphQL schema.
+[34m[main][0;39m [2026-09-26  22-35-20-89] INFO  o.s.b.g.a.GraphQlAutoConfiguration  GraphQL schema inspection:
+	Unmapped fields: {Query=[getStudentById], Mutation=[changeFirstName, changeSecondName]}
+	Unmapped registrations: {}
+	Unmapped arguments: {}
+	Field nullness errors: {}
+	Argument nullness errors: {}
+	Skipped types: []
+[34m[main][0;39m [2026-09-26  22-35-20-92] INFO  o.s.b.g.a.s.GraphQlWebMvcAutoConfiguration  GraphQL endpoint HTTP POST /graphql
+[34m[main][0;39m [2026-09-26  22-35-21-26] INFO  o.s.b.a.e.web.EndpointLinksResolver  Exposing 1 endpoint beneath base path '/actuator'
+[34m[main][0;39m [2026-09-26  22-35-21-31] INFO  o.a.coyote.http11.Http11NioProtocol  Starting ProtocolHandler ["http-nio-40411"]
+[34m[main][0;39m [2026-09-26  22-35-21-33] INFO  o.s.boot.tomcat.TomcatWebServer  Tomcat started on port 40411 (http) with context path '/'

@@ -1,0 +1,24 @@
+type Studentt {
+    id:ID!
+    firstName:String!
+    secondName:String!
+    age:Int!
+    email: String!
+}
+
+type StudenttResponse {
+    firstName: String!
+    secondName: String!
+    age: Int!
+}
+
+type Query {
+    getStudentById(id:ID!) : Studentt
+}
+
+type Mutation  {
+    changeFirstName(id :ID!,firstName:String!) : Studentt
+    changeSecondName(id :ID!,secondName:String!) : Studentt
+
+}
+

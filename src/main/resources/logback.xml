@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configuration scan="true" scanPeriod="30 seconds">
+
+    <property name="LOG_PATTERN"
+              value="%d{yyyy-MM-dd HH-mm-ss-SS} %highlight([%thread]) %-5level %logger{36} %cyan(%msg%n)"/>
+
+    <property name="ROLLING_LOG_PATTERN"
+              value="%highlight([%thread]) [%d{yyyy-MM-dd HH-mm-ss-SS}] %-5level %logger{36} %msg%n"/>
+
+
+    <!-- Console -->
+    <appender name="stdout"
+              class="ch.qos.logback.core.ConsoleAppender">
+
+        <encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
+            <pattern>${LOG_PATTERN}</pattern>
+        </encoder>
+
+    </appender>
+
+
+    <!-- Normal File -->
+    <appender name="file"
+              class="ch.qos.logback.core.FileAppender">
+
+        <encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
+            <pattern>${LOG_PATTERN}</pattern>
+        </encoder>
+
+        <file>logs/app_logs.log</file>
+        <append>true</append>
+
+    </appender>
+
+
+    <!-- Rolling File -->
+    <appender name="rolling_file"
+              class="ch.qos.logback.core.rolling.RollingFileAppender">
+
+        <file>logs/roll/app_logs.log</file>
+
+        <encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
+            <pattern>${ROLLING_LOG_PATTERN}</pattern>
+        </encoder>
+
+        <append>true</append>
+
+        <rollingPolicy
+                class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
+
+            <fileNamePattern>
+                logs/roll/app_logs_%d{yyyy-MM-dd}.%i.log
+            </fileNamePattern>
+
+            <maxFileSize>5KB</maxFileSize>
+
+            <maxHistory>3</maxHistory>
+
+        </rollingPolicy>
+
+    </appender>
+
+
+    <!-- Spring -->
+    <logger name="org.springframework" level="INFO"/>
+
+    <!-- Application -->
+    <logger name="com.pioneers.rest" level="TRACE"/>
+
+
+    <!-- Root -->
+    <root level="TRACE">
+
+        <appender-ref ref="stdout"/>
+        <appender-ref ref="file"/>
+        <appender-ref ref="rolling_file"/>
+
+    </root>
+
+</configuration>

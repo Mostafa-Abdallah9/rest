@@ -1,0 +1,57 @@
+[34m[main][0;39m [2026-09-26  22-11-03-92] INFO  com.pioneers.rest.task.Main  Starting Main using Java 21.0.10 with PID 28588 (C:\Users\Mostafa\Downloads\rest\target\classes started by Mostafa in C:\Users\Mostafa\Downloads\rest)
+[39m[main][0;39m [2026-09-26  22-11-03-92] DEBUG com.pioneers.rest.task.Main  Running with Spring Boot v4.1.0, Spring v7.0.8
+[34m[main][0;39m [2026-09-26  22-11-03-92] INFO  com.pioneers.rest.task.Main  The following 1 profile is active: "dev"
+[34m[background-preinit][0;39m [2026-09-26  22-11-04-18] INFO  o.h.validator.internal.util.Version  HV000001: Hibernate Validator 9.1.0.Final
+[34m[main][0;39m [2026-09-26  22-11-05-30] INFO  o.s.boot.tomcat.TomcatWebServer  Tomcat initialized with port 40411 (http)
+[34m[main][0;39m [2026-09-26  22-11-05-32] INFO  o.a.coyote.http11.Http11NioProtocol  Initializing ProtocolHandler ["http-nio-40411"]
+[34m[main][0;39m [2026-09-26  22-11-05-32] INFO  o.a.catalina.core.StandardService  Starting service [Tomcat]
+[34m[main][0;39m [2026-09-26  22-11-05-32] INFO  o.a.catalina.core.StandardEngine  Starting Servlet engine: [Apache Tomcat/11.0.22]
+[34m[main][0;39m [2026-09-26  22-11-05-37] INFO  o.s.b.w.c.s.WebApplicationContextInitializer  Root WebApplicationContext: initialization completed in 1393 ms
+[34m[main][0;39m [2026-09-26  22-11-06-00] INFO  o.s.g.e.DefaultSchemaResourceGraphQlSourceBuilder  Loaded 1 resource(s) in the GraphQL schema.
+[34m[main][0;39m [2026-09-26  22-11-06-17] INFO  o.s.b.g.a.GraphQlAutoConfiguration  GraphQL schema inspection:
+	Unmapped fields: {Query=[getStudentById], Mutation=[changeFirstName, changeSecondName]}
+	Unmapped registrations: {}
+	Unmapped arguments: {}
+	Field nullness errors: {}
+	Argument nullness errors: {}
+	Skipped types: []
+[34m[main][0;39m [2026-09-26  22-11-06-19] INFO  o.s.b.g.a.s.GraphQlWebMvcAutoConfiguration  GraphQL endpoint HTTP POST /graphql
+[34m[main][0;39m [2026-09-26  22-11-06-56] INFO  o.s.b.a.e.web.EndpointLinksResolver  Exposing 1 endpoint beneath base path '/actuator'
+[34m[main][0;39m [2026-09-26  22-11-06-61] INFO  o.a.coyote.http11.Http11NioProtocol  Starting ProtocolHandler ["http-nio-40411"]
+[31m[main][0;39m [2026-09-26  22-11-06-62] WARN  o.s.b.w.s.s.c.AnnotationConfigServletWebServerApplicationContext  Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+[34m[main][0;39m [2026-09-26  22-11-06-64] INFO  o.s.b.a.l.ConditionEvaluationReportLogger  
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+[1;31m[main][0;39m [2026-09-26  22-11-06-66] ERROR o.s.b.d.LoggingFailureAnalysisReporter  
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 40411 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 40411 or configure this application to listen on another port.
+
+[34m[SpringApplicationShutdownHook][0;39m [2026-09-26  22-11-21-19] INFO  o.s.boot.tomcat.GracefulShutdown  Commencing graceful shutdown. Waiting for active requests to complete
+[34m[tomcat-shutdown][0;39m [2026-09-26  22-11-21-22] INFO  o.s.boot.tomcat.GracefulShutdown  Graceful shutdown complete
+[34m[main][0;39m [2026-09-26  22-11-26-41] INFO  com.pioneers.rest.task.Main  Starting Main using Java 21.0.10 with PID 7240 (C:\Users\Mostafa\Downloads\rest\target\classes started by Mostafa in C:\Users\Mostafa\Downloads\rest)
+[39m[main][0;39m [2026-09-26  22-11-26-41] DEBUG com.pioneers.rest.task.Main  Running with Spring Boot v4.1.0, Spring v7.0.8
+[34m[main][0;39m [2026-09-26  22-11-26-41] INFO  com.pioneers.rest.task.Main  The following 1 profile is active: "dev"
+[34m[background-preinit][0;39m [2026-09-26  22-11-26-68] INFO  o.h.validator.internal.util.Version  HV000001: Hibernate Validator 9.1.0.Final
+[34m[main][0;39m [2026-09-26  22-11-27-75] INFO  o.s.boot.tomcat.TomcatWebServer  Tomcat initialized with port 40411 (http)
+[34m[main][0;39m [2026-09-26  22-11-27-76] INFO  o.a.coyote.http11.Http11NioProtocol  Initializing ProtocolHandler ["http-nio-40411"]
+[34m[main][0;39m [2026-09-26  22-11-27-76] INFO  o.a.catalina.core.StandardService  Starting service [Tomcat]
+[34m[main][0;39m [2026-09-26  22-11-27-76] INFO  o.a.catalina.core.StandardEngine  Starting Servlet engine: [Apache Tomcat/11.0.22]
+[34m[main][0;39m [2026-09-26  22-11-27-81] INFO  o.s.b.w.c.s.WebApplicationContextInitializer  Root WebApplicationContext: initialization completed in 1340 ms
+[34m[main][0;39m [2026-09-26  22-11-28-43] INFO  o.s.g.e.DefaultSchemaResourceGraphQlSourceBuilder  Loaded 1 resource(s) in the GraphQL schema.
+[34m[main][0;39m [2026-09-26  22-11-28-59] INFO  o.s.b.g.a.GraphQlAutoConfiguration  GraphQL schema inspection:
+	Unmapped fields: {Query=[getStudentById], Mutation=[changeFirstName, changeSecondName]}
+	Unmapped registrations: {}
+	Unmapped arguments: {}
+	Field nullness errors: {}
+	Argument nullness errors: {}
+	Skipped types: []
