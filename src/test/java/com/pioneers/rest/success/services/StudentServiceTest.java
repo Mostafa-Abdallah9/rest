@@ -2,23 +2,29 @@ package com.pioneers.rest.success.services;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 public class StudentServiceTest {
     private static StudentService studentService;
+    private StudentSuccess studentSuccess;
+    private StudentFailure studentFailure;
 
     @BeforeAll
     static void beforeAll() {
         studentService = new StudentService();
     }
 
+    @BeforeEach
+     void beforeEach() {
+       studentSuccess = new StudentSuccess();
+       studentFailure = new StudentFailure();
+    }
+
     @Test
     void testVlidate_whenStudentValidationIsSuccess_thenReturnSuccessMessage(){
 
         //Arrange
-        final StudentSuccess studentSuccess = new StudentSuccess();
-        final StudentFailure studentFailure = new StudentFailure();
-
         final String name = "mostafa";
         final int age = 20;
 
@@ -40,9 +46,6 @@ public class StudentServiceTest {
     void testVlidate_whenStudentValidationIsFailure_thenReturnFailureMessage(){
 
         //Arrange
-        final StudentSuccess studentSuccess = new StudentSuccess();
-        final StudentFailure studentFailure = new StudentFailure();
-
         final String name = "mo";
         final int age = 20;
 
