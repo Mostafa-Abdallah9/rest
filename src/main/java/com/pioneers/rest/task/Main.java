@@ -13,7 +13,7 @@ public class Main {
 
 //
 //        List<Integer> list = List.of(1,2,3,4,5,6,7,8);
-//        Function<List<Integer>, Integer> function = Main::maxElement;
+//        Function<List<Integer>, Integer> function = AmanApplication::maxElement;
 //
 //        System.out.println(function.apply(list));
 

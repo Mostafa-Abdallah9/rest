@@ -1,0 +1,30 @@
+spring:
+  application:
+    name: loyalty
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/loyalty_db?useSSL=false&serverTimezone=UTC&allowPublicKeyRetrieval=true
+    username: root
+    password: 1234
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: create
+    show-sql: true
+    database-platform: org.hibernate.dialect.MySQLDialect
+
+server:
+  port: 8089
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info
+
+logging:
+  level:
+    root: INFO
+    org.springframework.boot.autoconfigure: DEBUG
+    org.hibernate.orm.jdbc.bind: TRACE

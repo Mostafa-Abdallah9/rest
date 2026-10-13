@@ -1,0 +1,26 @@
+[34m[restartedMain][0;39m [2026-10-12 23-47-41-00] INFO  o.h.jpa.internal.util.LogHelper HHH000204: Processing PersistenceUnitInfo [name: default]
+[34m[restartedMain][0;39m [2026-10-12 23-47-41-00] INFO  o.h.c.i.RegionFactoryInitiator HHH000026: Second-level cache disabled
+[34m[restartedMain][0;39m [2026-10-12 23-47-41-01] INFO  o.s.o.j.p.SpringPersistenceUnitInfo No LoadTimeWeaver setup: ignoring JPA class transformer
+[31m[restartedMain][0;39m [2026-10-12 23-47-41-01] WARN  org.hibernate.orm.deprecation HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[34m[restartedMain][0;39m [2026-10-12 23-47-41-09] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[34m[restartedMain][0;39m [2026-10-12 23-47-41-12] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean Initialized JPA EntityManagerFactory for persistence unit 'default'
+[31m[restartedMain][0;39m [2026-10-12 23-47-41-12] WARN  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'entityManagerFactory' of type [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [jobRegistryBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+[31m[restartedMain][0;39m [2026-10-12 23-47-41-12] WARN  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'entityManagerFactory' of type [jdk.proxy6.$Proxy169] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [jobRegistryBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+[31m[restartedMain][0;39m [2026-10-12 23-47-41-12] WARN  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'transactionManager' of type [org.springframework.orm.jpa.JpaTransactionManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [jobRegistryBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+[31m[restartedMain][0;39m [2026-10-12 23-47-41-12] WARN  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'org.springframework.boot.autoconfigure.batch.BatchAutoConfiguration$SpringBootBatchConfiguration' of type [org.springframework.boot.autoconfigure.batch.BatchAutoConfiguration$SpringBootBatchConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). The currently created BeanPostProcessor [jobRegistryBeanPostProcessor] is declared through a non-static factory method on that class; consider declaring it as static instead.
+[34m[restartedMain][0;39m [2026-10-12 23-47-41-15] INFO  o.s.b.w.e.tomcat.TomcatWebServer Tomcat initialized with port 8089 (http)
+[34m[restartedMain][0;39m [2026-10-12 23-47-41-15] INFO  o.a.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8089"]
+[34m[restartedMain][0;39m [2026-10-12 23-47-41-15] INFO  o.a.catalina.core.StandardService Starting service [Tomcat]
+[34m[restartedMain][0;39m [2026-10-12 23-47-41-15] INFO  o.a.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/10.1.30]
+[34m[restartedMain][0;39m [2026-10-12 23-47-41-17] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+[34m[restartedMain][0;39m [2026-10-12 23-47-41-17] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 487 ms
+[31m[restartedMain][0;39m [2026-10-12 23-47-41-26] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[31m[restartedMain][0;39m [2026-10-12 23-47-41-35] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration 
+
+Using generated security password: e3a6ced5-f0d8-4474-884f-e074fec293e0
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+[34m[restartedMain][0;39m [2026-10-12 23-47-41-35] INFO  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+[34m[restartedMain][0;39m [2026-10-12 23-47-41-36] INFO  o.s.b.d.a.OptionalLiveReloadServer LiveReload server is running on port 35729
+[34m[restartedMain][0;39m [2026-10-12 23-47-41-36] INFO  o.a.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-8089"]

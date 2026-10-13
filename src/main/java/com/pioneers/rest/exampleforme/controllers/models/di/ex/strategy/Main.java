@@ -5,9 +5,9 @@
 //import org.springframework.boot.jdbc.autoconfigure.DataSourceAutoConfiguration;
 //
 //@SpringBootApplication(exclude = DataSourceAutoConfiguration.class)
-//public class Main {
+//public class AmanApplication {
 //    public static void main(String[] args) {
-//        SpringApplication.run(Main.class, args);
+//        SpringApplication.run(AmanApplication.class, args);
 //
 //    }
 //

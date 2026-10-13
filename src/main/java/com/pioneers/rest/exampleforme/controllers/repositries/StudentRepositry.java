@@ -1,4 +1,4 @@
-//package com.pioneers.rest.repositries;
+//package com.pioneers.rest.repositories;
 //
 //import com.pioneers.rest.models.entites.Studentt;
 //import com.pioneers.rest.projections.StudentProjection;
